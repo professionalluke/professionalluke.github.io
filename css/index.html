@@ -5,9 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Luke Cureton's Portfolio</title>
-   <link rel= "stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel= "stylesheet" href="main.css" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-    
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStyle">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav" id ="listStyle">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+<!--jumbotron-->
+<div class="jumbotron jumbotron-fluid" id="jumboStyle">
+        <div class="container">
+          <h1 class="display-4">Luke Cureton</h1>
+          <p class="lead">Welcome to my workspace.</p>
+        </div>
+      </div>
+
+      <!--project-->
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <a href="https://codepen.io/Professionalluke/pen/eLwOGg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kirby-Logo-Old.svg/2000px-Kirby-Logo-Old.svg.png" alt="kirby" id="projectPic"></a>
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3CS93CdMv_E?rel=0&amp;controls=0&amp;showinfo=0" frameborder="20" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                  <div class="col-4"></div>
+                      <div class=col-4></div>
+        </div>
+    </div>
+    <!--about me-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br><br><br><br><br><br><br><br><br>
+                <p id="aboutMe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum hic minus alias eos provident vitae! Odio quod assumenda inventore voluptatum, quos doloribus exercitationem, sit nam minus quae, ut voluptates placeat?</p>
+                </div>
+            </div>
+        </div>
+<!--contact-->
+<i class="fab fa-facebook"></i>
+<section id="about"></section>
+  <section id="portfolio"></section>
+  <section id="contact">
+   <div class="container">
+     <h2 class="text-center text-uppercase">Contact Me</h2>
+     <div class="row">
+       <form action="https://formspree.io/professionalluke30@gmail.com" method="POST">
+         <div class="control-group">
+           <div class="form-group">
+             <label>Name</label>
+             <input
+               type="text"
+               class="form-control"
+               placeholder="Your Name"
+               id="name"
+               required
+               data-validation-required-message="Please enter your name"
+               name="name"
+               >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <label>Email Address</label>
+             <input
+               type="email"
+               class="form-control"
+               placeholder="Your Email"
+               id="email"
+               required
+               data-validation-required-message="Please enter your email"
+               name="_replyto"
+             >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <textarea
+               class="form-control"
+               rows="7"
+               placeholder="Your Message"
+               id="message"
+               required
+               data-validation-required-message="Please leave a message"
+               name="message"
+             ></textarea>
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="text-center">
+           <div id="success"></div>
+           <button type="submit" class="btn btn-lg btn-black">
+             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+             Send Message
+           </button>
+         </div>
+       </form>
+     </div>
+   </div>
+ </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
