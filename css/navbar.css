@@ -1,11 +1,18 @@
 #navStyle{
     background: var(--green) !important;
-
+    
 }
 #listStyle{
     margin-left: 75%;
     font-family: cursive;
     font-size: 110%;
-
+    
 }
 
+.aTag{
+    color:white !important;
+}
+
+.fab fa-facebook{
+    overflow: hidden;
+}
