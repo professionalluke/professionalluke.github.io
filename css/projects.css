@@ -12,4 +12,19 @@
 #beginPic{
     border-radius: 20px;
     border:dotted red;
+    width: 100%;
+    
+}
+
+#apiPic{
+    overflow:hidden;
+    border-style:solid black;
+    border-radius: 10px;
+
+}
+
+#musicPic{
+    width:100%;
+    border-radius: 10px;
+    border:double black;
 }
