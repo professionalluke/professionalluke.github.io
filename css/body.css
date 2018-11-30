@@ -1,6 +1,7 @@
 body {
     background-color: var(--grey);
     color:white;
+    
 }
 #pro{
     font-family: Indie Flower ;
@@ -10,3 +11,7 @@ h1{
     text-align: center;
 }
 
+.pTag{
+    text-align: left;
+    font-family: Indie Flower;
+}

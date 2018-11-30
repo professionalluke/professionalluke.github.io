@@ -1,6 +1,7 @@
 #projectPic{
     overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 
 #tutorialPic{
@@ -16,15 +17,24 @@
     
 }
 
+#bluePic{
+    overflow:hidden;
+    border-style:solid black;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+#gamePic{
+    width:100%;
+    border-radius: 10px;
+    /* border:double black; */
+}
+
 #apiPic{
     overflow:hidden;
     border-style:solid black;
     border-radius: 10px;
+    width: 100%;
 
-}
-
-#musicPic{
-    width:100%;
-    border-radius: 10px;
-    border:double black;
 }
