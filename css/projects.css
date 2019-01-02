@@ -36,5 +36,11 @@
     border-style:solid black;
     border-radius: 10px;
     width: 100%;
+}
 
+#escapePic{
+    overflow:hidden;
+    border-style:solid black;
+    border-radius: 10px;
+    width: 100%;
 }
