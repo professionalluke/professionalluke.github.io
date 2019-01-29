@@ -44,3 +44,10 @@
     border-radius: 10px;
     width: 100%;
 }
+
+#cPic{
+overflow:hidden;
+    border-style:solid black;
+    border-radius: 10px;
+    width: 100%;
+}
